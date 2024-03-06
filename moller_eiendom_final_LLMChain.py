@@ -5,7 +5,6 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 import fitz  # PyMuPDF
 import base64
-from langchain_community.document_loaders.sitemap import SitemapLoader
 
 
 
