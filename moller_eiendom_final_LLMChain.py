@@ -128,7 +128,7 @@ prompt = PromptTemplate(
 )
 
 # Initialiser ChatOpenAI-modellen, top_p? Hva er standardverdi?
-API = st.secret
+API = st.secrets["API_KEY"]
 chat = ChatOpenAI(temperature=0.5, model_name="gpt-4-0125-preview", openai_api_key=API, verbose=True)
 
 #Initialiserer minne
